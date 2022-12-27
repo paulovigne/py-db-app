@@ -1,0 +1,13 @@
+[Unit]
+Description=Python pyapp
+After=multi-user.target
+
+[Service]
+User=vault
+Group=vault
+Type=simple
+Restart=always
+EnvironmentFile=/etc/vault.d/pyapp.env
+ExecStart=/usr/bin/python3 /tmp/python/pyapp/app.py
+[Install]
+WantedBy=multi-user.target
