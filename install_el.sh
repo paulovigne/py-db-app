@@ -4,7 +4,7 @@
 # Install SO Packages
 #
 
-dnf install -y git docker python3 python3-pip libpqxx-devel.x86_64
+yum install -y git docker python3 python3-pip libpqxx-devel.x86_64
 
 #
 # Clone Repo
