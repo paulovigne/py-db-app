@@ -8,6 +8,6 @@ Group=pyapp
 Type=simple
 Restart=always
 EnvironmentFile=/etc/pyapp/pyapp.env
-ExecStart=/usr/bin/flask run --host=0.0.0.0 --port=8080
+ExecStart=/usr/local/bin/flask run --host=0.0.0.0 --port=8080
 [Install]
 WantedBy=multi-user.target
