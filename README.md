@@ -46,6 +46,12 @@ INSERT INTO movies (year, name) VALUES (1994, 'The Shawshank Redemption'),(1972,
 GRANT SELECT ON ALL TABLES IN SCHEMA public TO pyapp;
 ```
 
+## Running Python Application
+
+```
+flask run --host=0.0.0.0 --port=8080
+```
+
 # Docker Setup
 
 ## Repo Cloning
