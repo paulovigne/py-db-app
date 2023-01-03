@@ -69,9 +69,7 @@ docker run \
 ## Install PyApp
 
 ```
-docker build . \
-    -t py-db-app \
-    -f /opt/py-db-app/Dockerfile
+docker build /opt/py-db-app -t py-db-app
 
 docker run \
     --name pyapp \
