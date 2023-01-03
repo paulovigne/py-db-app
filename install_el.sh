@@ -42,7 +42,6 @@ mkdir -p /etc/pyapp
 
 cp /opt/py-db-app/pyapp.service /etc/systemd/system/pyapp.service
 cp /opt/py-db-app/pyapp.env /etc/pyapp/pyapp.env
-#sed -i 's/localhost/'$HOSTNAME'/g' /etc/pyapp/pyapp.env
 
 chown -R pyapp. /opt/py-db-app
 chown -R pyapp. /etc/pyapp
