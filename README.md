@@ -35,7 +35,7 @@ PG_PASS="pyapppyapp"
 
 ## Database Configuration
 
-The following script are the inital database payload, it contains database connection user/pass and the application table data.
+The following script is the inital database payload, it contains database connection user/pass and the application table data.
 
 ```
 CREATE DATABASE pyapp;
